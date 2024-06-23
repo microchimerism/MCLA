@@ -1,0 +1,54 @@
+/* ##############################
+# Michael Gruber, 05.03.2023    #
+# Medizinische Universität Graz #
+# Lehrstuhl fuer Histologie     #
+#################################
+#
+# Fonts' definitions
+# */
+
+/* ########## Font Family Open Sans */
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("www/fonts-woff/OpenSans/Font-OpenSans_300-Light.woff") format("woff") font-normal font-weight-light,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_300-Light-Italic.woff") format("woff") font-italic font-weight-light,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_400-Regular.woff") format("woff") font-normal font-weight-regular,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_400-Regular-Italic.woff") format("woff") font-italic font-weight-regular,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_500-Medium.woff") format("woff") font-normal font-weight-medium,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_500-Medium-Italic.woff") format("woff") font-italic font-weight-medium,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_600-SemiBold.woff") format("woff") font-normal font-weight-semibold,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_600-SemiBold-Italic.woff") format("woff") font-italic font-weight-semibold,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_700-Bold.woff") format("woff") font-normal font-weight-bold,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_700-Bold-Italic.woff") format("woff") font-italic font-weight-bold,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_800-ExtraBold.woff") format("woff") font-normal font-weight-extrabold,
+       url("www/fonts-woff/OpenSans/Font-OpenSans_800-ExtraBold-Italic.woff") format("woff") font-italic font-weight-extrabold;
+}
+
+/* ########## Font Family Roboto */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("www/fonts-woff/Roboto/Font-Roboto_300-Light.woff") format("woff") font-normal font-weight-light,
+       url("www/fonts-woff/Roboto/Font-Roboto_300-Light-Italic.woff") format("woff") font-italic font-weight-light,
+       url("www/fonts-woff/Roboto/Font-Roboto_400-Regular.woff") format("woff") font-normal font-weight-regular,
+       url("www/fonts-woff/Roboto/Font-Roboto_400-Regular-Italic.woff") format("woff") font-italic font-weight-regular,
+       url("www/fonts-woff/Roboto/Font-Roboto_500-Medium.woff") format("woff") font-normal font-weight-medium,
+       url("www/fonts-woff/Roboto/Font-Roboto_500-Medium-Italic.woff") format("woff") font-italic font-weight-medium,
+       url("www/fonts-woff/Roboto/Font-Roboto_700-Bold.woff") format("woff") font-normal font-weight-bold,
+       url("www/fonts-woff/Roboto/Font-Roboto_700-Bold-Italic.woff") format("woff") font-italic font-weight-bold;
+}
+
+/* ########## Font Family Helvetica */
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("www/fonts-woff/Helvetica/Font-Helvetica_300-Light.woff") format("woff") font-normal font-weight-light,
+       url("www/fonts-woff/Helvetica/Font-Helvetica_300-Light-Italic.woff") format("woff") font-italic font-weight-light,
+       url("www/fonts-woff/Helvetica/Font-Helvetica_400-Regular.woff") format("woff") font-normal font-weight-regular,
+       url("www/fonts-woff/Helvetica/Font-Helvetica_400-Regular-Italic.woff") format("woff") font-italic font-weight-regular,
+       url("www/fonts-woff/Helvetica/Font-Helvetica_600-SemiBold.woff") format("woff") font-normal font-weight-semibold,
+       url("www/fonts-woff/Helvetica/Font-Helvetica_600-SemiBold-Italic.woff") format("woff") font-italic font-weight-semibold;
+}
+
+/* ########## */

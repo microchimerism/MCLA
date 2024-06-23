@@ -1,0 +1,24 @@
+column_name,labels,search_terms
+Or1,Amniotic fluid,Amniotic fluid|amniotic fluid
+Or2,Bladder,Bladder|bladder
+Or3,Blood peripheral,Blood peripheral|blood peripheral|Peripheral blood|peripheral blood
+Or4,Blood umbilical cord,Blood umbilical cord|blood umbilical cord|Umbilical cord blood|umbilical cord blood
+Or5,Blood vessels (general),Vessel|vessel|Artery|artery|Arteries|arteries|Aorta|aorta|Vein|vein
+Or6,Bone marrow,Bone marrow|bone marrow
+Or7,Brain,Brain|brain
+Or8,Breast,Breast|breast
+Or9,Colon,Colon|colon
+Or10,Duct,Duct|duct
+Or11,Gallbladder,Gallbladder|gallbladder
+Or12,Gaster,Gaster|gaster
+Or13,Heart,Heart|heart
+Or14,Intestine,Intestine|intestine
+Or15,Kidney|ren,Kidney|kidney|Ren|ren
+Or16,Liver,Liver|liver
+Or17,Lung,Lung|lung
+Or18,Ovary,Ovary|ovary|Ovaries|ovaries
+Or19,Pancreas,Pancreas|pancreas|Pancreata|pancreata
+Or20,Placenta,Placenta|placenta
+Or21,Spleen,Spleen|spleen
+Or22,Testis|testicle,Testis|testis|Testes|testes|Testicle|testicle
+Or23,Uterus,Uterus|uterus|Uteri|uteri

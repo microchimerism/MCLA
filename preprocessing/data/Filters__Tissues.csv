@@ -1,0 +1,11 @@
+column_name,labels,search_terms
+Ti1,Bone tissue,Bone tissue|bone tissue
+Ti2,Cartilage tissue,Cartilage tissue|cartilage tissue
+Ti3,Connective tissue,Connective tissue|connective tissue
+Ti4,Epithelial tissue,Epithelial tissue|epithelial tissue
+Ti5,Fat tissue,Fat tissue|fat tissue
+Ti6,Lymphatic tissue,Lymphatic tissue|lymphatic tissue
+Ti7,Mesenchymal tissue,Mesenchymal tissue|mesenchymal tissue
+Ti8,Muscle tissue,Muscle tissue|muscle tissue
+Ti9,Nerv tissue,Nerv tissue|nerv tissue
+Ti10,Body fluids,Urine|urine|Spinal fluid|spinal fluid|Ascites|ascites|Pleural fluid|pleural fluid

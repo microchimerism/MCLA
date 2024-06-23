@@ -1,0 +1,148 @@
+/* ##############################
+# Michael Gruber, 05.03.2023    #
+# Medizinische Universität Graz #
+# Lehrstuhl fuer Histologie     #
+#################################
+# */
+
+/* ########## Font styles */
+
+/* Header1 */
+.info-h1 {
+	font-family: "Roboto";
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+	padding: 2px 30px 2px 30px;  /* top right bottom left */
+}
+
+/* Paragraph */
+.info-p {
+	font-family: "OpenSans";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.4;
+	padding: 0px 30px 0px 32px;  /* top right bottom left */
+}
+
+/* Text that is set off from the normal prose in a document */
+i {
+   font-family: "OpenSans";
+   font-weight: regular;
+   font-size: 14px;
+   margin-right: 5px;  /* span: distance between icon and text */
+}
+
+/* Color of links */
+a:link {
+  color: black;
+}
+a:visited {
+  color: gray;
+}
+
+/* ########## Navigation bar */
+
+/* Main title (left) */
+.logo-lg {  /* shows logo when navbar is semi-collapsed */
+   font-family: "Helvetica";
+   font-weight: bold;
+   font-size: 20x;
+   color: white;
+   text-align: left;
+}
+
+/* Prevent navbar overflow at bottom */
+.form-group {
+   margin-bottom: 0px;
+}
+
+/* ########## Datatable export buttons */
+
+/* Format export buttons in the sidebar */
+.buttons_export_datatable {
+   display: table !important;
+   width: 55px;
+   height: 35px;
+   background-color: #398ee7 !important;
+   color: #white;
+   border: 0px;
+   border-radius: 5px !important;
+   margin: 0px 0px 15px 0px;  /* top right bottom left */
+}
+.buttons_export_datatable:hover {
+   background-color: #286090 !important;
+   color: #ffffff;
+   border-color: #286090;
+}
+
+/* Hide export buttons in the datatable */
+.buttons-csv, .buttons-excel, .buttons-print {
+   display: none !important;
+}
+
+/* ########## Data table */
+
+/* Disable the box above the table
+.box-header {
+  display: none;
+}
+*/
+
+/* Color of the selected row */
+#shiny_table tbody tr.selected td {
+   color: #000000;  /* not working with #black */
+   box-shadow: inset 0 0 0 9999px #e6f2ff;
+}
+
+/* Prevent selection of shown column "Abstract" */
+#shiny_table tbody td.row-child-abstract {
+   pointer-events: none;
+}
+
+/* Div row child properties for column "Abstract" generated with function "format" */
+.div-row-child-abstract {
+   background-color: #fff7f8;
+   padding: 0.1em;
+}
+
+/* Hide the disabled search boxes */
+[type='search']:disabled {
+   visibility: hidden;
+}
+
+/* Custom symbols for open/close data table */
+/*td.details-control {
+   background: url('./resources/details_open.png') no-repeat center center;
+   cursor: pointer;
+}
+tr.shown td.details-control {
+   background: url('./resources/details_close.png') no-repeat center center;
+}*/
+
+/* ########## Notification window */
+
+.shiny-notification {
+   color: white;
+   background-color: gray;
+   opacity: 0.8;
+   font-size: 22px;
+   line-height: 1.6;
+   border-color: #000000;
+   border-width: 1x;
+   border-radius: 5px;
+   padding: 30px;
+   position: fixed;
+   top: calc(45%);
+   left: calc(40%);
+}
+
+/* ########## Info  */
+
+.info-image-in-text {
+   height: 20px;
+   width: auto;
+}
+
+/* ########## */
