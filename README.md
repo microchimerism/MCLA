@@ -1,8 +1,15 @@
-# MCLA (Microchimerism Literature Atlas)
+# Microchimerism Literature Atlas
 
 The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is an advanced literature dataset offering powerful tools for exploring and analyzing over 15,000 references in the field of MC research. 
-The MCLA is run with Shiny on a server, allowing online access by multiple users to share and investigate data. 
-The literature is downloaded in a preprocessing step from PubMed, cleaned, and processed to save server performance.
+
+The literature tool is programmed in such a way that it can be easily adapted to meet one’s own need for a literature dataset,  e.g., by downloading and preprocessing a custom literature dataset or by changing the possible filter keywords. 
+The files for customizing the literature tool can be found in: 
+- preprocessing/data/,
+- preprocessing/pubmed.R and 
+- web_app/global.R
+
+
+The MCLA is build by downloading in a preprocessing step from PubMed, cleaned, and processed to save server performance.
 
 ## Features
 
