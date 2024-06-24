@@ -25,7 +25,7 @@ The necessary files for customizing the literature tool can be found at:
 - `preprocessing/pubmed.R`
 - `web_app/global.R`
 
-### Downloading and Preprocessing Dataset
+### Downloading and Preprocessing the Literature Dataset
 
 PubMed search query results (defined in `preprocessing/data/PubMedSearch_Parameters_*.xlsx`) are downloaded, and essential information for creating the literature dataset is extracted.
 The dataset is cleaned by removing duplicates and incomplete entries. 
