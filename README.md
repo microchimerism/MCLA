@@ -5,7 +5,7 @@
 ![Tests Passing](https://img.shields.io/badge/tests-passing-brightgreen)
 
 
-<img src="https://github.com/microchimerism/MCLA/__docs__/MCLA.png?raw=true" width="150" title="GTC" alt="cellpose" align="right" vspace="50">
+<img src="[MCLA](https://github.com/microchimerism/MCLA/blob/main/__docs__/MCLA.png)https://github.com/microchimerism/MCLA/blob/main/__docs__/MCLA.png?raw=true" width="150" title="GTC" alt="cellpose" align="right" vspace="50">
 
 The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is a tool designed for creating and hosting a literature dataset — in our special case, with over 15,000 references in the field of microchimerism (MC) research. 
 The MCLA is intended to be an essential resource for research (groups) providing useful tools for comprehensive and efficient literature analysis of a research field, with online access available to multiple users.
