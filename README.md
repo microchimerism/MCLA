@@ -46,3 +46,7 @@ The necessary files are mostly text files for customizing the literature tool ca
 - `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined "Filter Settings" in `Filters__*.csv`.
 - `preprocessing/pubmed.R`: Define displayed columns for created literature dataset.
 - `web_app/global.R`: Define general runtime settings.
+
+## Acknowledgments
+
+The MCLA is part of the 'We All Are Multitudes: The Microchimerism, Human Health and Evolution Project' that is funded by the John Templeton foundation (Grant-ID 62214). 
