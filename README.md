@@ -36,5 +36,5 @@ After preprocessing, the files created in `preprocessing/results/` should be cop
 ### Setup of Shiny Server Environment
 
 To run the MCLA (in R or on a server), an R and Shiny Server environment must be set up previously.
-Specific installation instructions vary depending on the operating system used. 
+Specific installation instructions vary depending on the operating system used — hence, we omit detailed guidelines here.
 However, many detailed installation guides can be found online.
