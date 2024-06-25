@@ -21,7 +21,7 @@ The setup of the MCLA involves two steps: using R scripts for preprocessing and 
 The MCLA is designed for easy customization of the literature dataset, including downloading and preprocessing a custom literature dataset or modifying filter keywords.
 
 The necessary files are mostly text files for customizing the literature tool can be found at:
-- `preprocessing/data/`: `PubMedSearch_Parameters_*.xlsx` to define the PubMed queries and `Filters__*.csv` for predefined "Filter Settings".
+- `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined "Filter Settings" in `Filters__*.csv`.
 - `preprocessing/pubmed.R`: Define displayed columns for created literature dataset.
 - `web_app/global.R`: Define general runtime settings.
 
