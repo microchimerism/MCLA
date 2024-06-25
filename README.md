@@ -11,7 +11,7 @@
 The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is a tool designed for creating and hosting a literature dataset — in our special case, with over 15,000 references in the field of microchimerism (MC) research. 
 The MCLA is intended to be an essential resource for research (groups) providing useful tools for comprehensive and efficient literature analysis of a research field, with online access available to multiple users.
 
-For more detailed information about the possibilities of the MCLA please read the "Info" tag of the online application.
+For more detailed information about the possibilities and the operation of the MCLA, we refer you to the *Info* tag of the online application.
 
 ### Features:
 
@@ -21,7 +21,7 @@ For more detailed information about the possibilities of the MCLA please read th
 
 ### Functional Sections:
 
-- **Chart View:** Visualize publication data, keyword frequency, and author activity. Graphs adapt to active filter settings, allowing for tailored insights.
+- **Chart View:** Visualize publication data, keyword frequency, and author activity. Graphs adapt to active *Filter Settings*, allowing for tailored insights.
 - **Network View:** Investigate the citation network to understand relationships between papers. Highlight connections and access detailed paper information by hovering over nodes.
 - **Filter Settings:** Apply predefined search strings typical for the research field to refine searches, enhancing specificity and relevance.
 
@@ -34,7 +34,7 @@ The setup of the MCLA involves two steps: using R scripts for preprocessing and 
 PubMed search query results (defined in `preprocessing/data/PubMedSearch_Parameters_*.xlsx`) are downloaded and essential information for creating the literature dataset is extracted.
 Thereafter, the dataset is cleaned by removing duplicates and incomplete entries. 
 To optimize server processing time and ensure smooth operation, time consuming operations are included in the preprocessing part.
-Hence, the dataset is prefiltered using "Filter Settings" keywords (defined in `preprocessing/data/Filters__*.csv`) and nodes and edges of citation networks are calculated. 
+Hence, the dataset is prefiltered using *Filter Settings* keywords (defined in `preprocessing/data/Filters__*.csv`) and nodes and edges of citation networks are calculated. 
 After preprocessing, the files created in `preprocessing/results/` should be copied to `web_app/data/` and the file `web_app/global.R` should be adapted accordingly.
 
 ### Setup of Shiny Server Environment
@@ -48,7 +48,7 @@ However, many detailed installation guides can be found online.
 The MCLA is designed for easy customization of the literature dataset, including downloading and preprocessing a custom literature dataset or modifying filter keywords.
 
 The necessary files are mostly text files for customizing the literature tool can be found at:
-- `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined "Filter Settings" in `Filters__*.csv`.
+- `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined *Filter Settings* in `Filters__*.csv`.
 - `preprocessing/pubmed.R`: Define displayed columns for created literature dataset.
 - `web_app/global.R`: Define general runtime settings.
 
