@@ -18,12 +18,6 @@ The MCLA is intended to be an essential resource for research (groups) providing
 ## Setup of the MCLA
 
 The setup of the MCLA involves two steps: using R scripts for preprocessing and then starting the MCLA in a Shiny Server environment. 
-The MCLA is designed for easy customization of the literature dataset, including downloading and preprocessing a custom literature dataset or modifying filter keywords.
-
-The necessary files are mostly text files for customizing the literature tool can be found at:
-- `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined "Filter Settings" in `Filters__*.csv`.
-- `preprocessing/pubmed.R`: Define displayed columns for created literature dataset.
-- `web_app/global.R`: Define general runtime settings.
 
 ### Downloading and Preprocessing the Literature Dataset
 
@@ -38,3 +32,12 @@ After preprocessing, the files created in `preprocessing/results/` should be cop
 To run the MCLA (in R or on a server), an R and Shiny Server environment must be set up previously.
 Specific installation instructions vary depending on the operating system used — hence, we omit detailed guidelines here.
 However, many detailed installation guides can be found online.
+
+### Customizing the MCLA
+
+The MCLA is designed for easy customization of the literature dataset, including downloading and preprocessing a custom literature dataset or modifying filter keywords.
+
+The necessary files are mostly text files for customizing the literature tool can be found at:
+- `preprocessing/data/`: Define the PubMed queries in `PubMedSearch_Parameters_*.xlsx` and the predefined "Filter Settings" in `Filters__*.csv`.
+- `preprocessing/pubmed.R`: Define displayed columns for created literature dataset.
+- `web_app/global.R`: Define general runtime settings.
