@@ -6,7 +6,7 @@
 
 The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is a tool designed for creating and hosting a literature dataset — in our special case, with over 15,000 references in the field of microchimerism (MC) research. 
 The MCLA is intended to be an essential resource for research (groups) providing useful tools for comprehensive and efficient literature analysis of a research field, with online access available to multiple users.
-For more detailed information about the possibilities of the MCLA please read the “Info” tag of the online application.
+For more detailed information about the possibilities of the MCLA please read the "Info" tag of the online application.
 
 ### Features:
 
