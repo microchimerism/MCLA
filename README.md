@@ -32,6 +32,7 @@ The setup of the MCLA involves two steps: using R scripts for preprocessing and 
 ### Downloading and Preprocessing the Literature Dataset
 
 PubMed search query results (defined in `preprocessing/data/PubMedSearch_Parameters_*.xlsx`) are downloaded and essential information for creating the literature dataset is extracted.
+If a custom literature dataset is used instead of the PubMed queries, then the file flag DOWNLOAD_PUBMED has to be set to FALSE to import the dataset.
 Thereafter, the dataset is cleaned by removing duplicates and incomplete entries. 
 To optimize server processing time and ensure smooth operation, time consuming operations are included in the preprocessing part.
 Hence, the dataset is prefiltered using *Filter Settings* keywords (defined in `preprocessing/data/Filters__*.csv`) and nodes and edges of citation networks are calculated. 
