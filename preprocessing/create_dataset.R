@@ -26,10 +26,9 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 ########## SETTINGS
 
-DOWNLOAD = TRUE  # download meta data from pubmed
-EXTRACT_XML = TRUE  # extract meta data into data frame
+path_file_custom_dataset = "path/file_name"
+DOWNLOAD_PUBMED = TRUE  # download meta data from pubmed
 BUILD_NODES_AND_EDGES = TRUE  # build visnetwork structures
-LIMIT_NUMBER_PAPERS_TO_100 = FALSE  # for debugging
 
 #####
 
@@ -46,38 +45,26 @@ api_key = setup_environment()
 
 query = import_query_from_file("data/PubMedSearch_Parameters.xlsx")
 
-########## Create search strings
+########## Create PubMed search strings
 
 search_string_list = create_search_string(query, "1970")
 
-########## Download XML-data from PubMed website
+########## Download XML-data from PubMed website and into data frame or use custom dataset
 
-if (DOWNLOAD == TRUE) {
+if (DOWNLOAD_PUBMED == TRUE) {
    tictoc::tic("Download Time")
    create_download_directory(download_directory)
    download_xml_from_pubmed(search_string_list, api_key, 50, download_directory)
    tictoc::toc()
-}
-
-########## Convert XML-data from files into data frame and clean data
-
-if (EXTRACT_XML == TRUE) {
    tictoc::tic("Convert Time")
    papers_xml = convert_pubmed_xml_to_data_frame(download_directory)
    tictoc::toc()
    save_csv(papers_xml, "debug_papers_before_cleaning", with_timestamp = FALSE)
    papers = clean_data_frame(papers_xml)
-   save_csv(papers, "debug_papers_after_cleaning", with_timestamp = FALSE)
-   papers_removed = aborted_papers(papers_xml)
+   #papers_removed = aborted_papers(papers_xml)
    save_csv(papers_removed, "debug_papers_removed_by_cleaning", with_timestamp = FALSE)
 } else {
-   papers = read_csv("debug_papers_after_cleaning", is_data_file = FALSE)
-}
-
-########## Limit the number of papers to 100 for debugging
-
-if (LIMIT_NUMBER_PAPERS_TO_100 == TRUE) {
-   papers = papers[1:100, ]
+   papers = read_csv(path_file_custom_dataset, is_data_file = FALSE)
 }
 
 ########## Build network nodes and edges
