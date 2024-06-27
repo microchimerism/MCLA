@@ -13,17 +13,24 @@ The MCLA is intended to be an essential resource for research (groups) providing
 
 For more detailed information about the possibilities and the operation of the MCLA, please refer to the *Info* tag of the web application.
 
-### Features:
+### Key Features
 
-- **Modular Structure:** Navigate through different sections via a user-friendly Graphical User Interface (GUI).
-- **Data Table:** View key information in an expandable table with options for multidimensional searches and data export (CSV, TXT, XLSX).
-- **Advanced Search:** Execute precise queries with support for word parts, phrases, and logical operators (AND, OR, NOT).
+- **User-Friendly Interface:** Use a modular structure with an intuitive Graphical User Interface (GUI) where you can navigate through different sections.
+- **Comprehensive Knowledge Database:** Access a vast literature dataset containing metadata for over 15,000 references from the field of microchimerism (MC) research, covering peer-reviewed articles and reviews from 1970 to the present.
+- **Clearly-Structured Data Table View:** Get the key information from the MC literature displayed in an expandable table format, making it easy to view and navigate through the data.
+- **Advanced Search Function:** Execute precise multi-dimensional queries with support for word parts and whole phrase searches alongside logical operators (AND, OR, NOT).
+- **Graphical Data Representation:** Graphically display important information in the form of bar plots, heatmaps, and word clouds, aiding quick identification of key trends and patterns in the dataset.
+- **Dynamic Visualization:** Interactively change the graphs by applying different filter settings.
+- **Reference Network Establishment:** Establish a reference network of a specific paper and get a comprehensive view of the research landscape.
+- **Data Export Options:** Export the obtained search results as CSV, TXT, or XLSX files for further investigation and analysis.
 
-### Functional Sections:
+### Functional Sections
 
-- **Chart View:** Visualize publication data, keyword frequency, and author activity. Graphs adapt to active *Filter Settings*, allowing for tailored insights.
+- **Data Table:** Presents key information from the MC literature in an expandable table format, making it easy to view and navigate through the data.
+- **Filter Settings:** Combine multiple predefined search strings typical for the research field via checkboxes to refine searches, enhancing specificity and relevance.
+- **Chart View:** Visualize publication data, keyword frequency, and author activity. Graphs adapt to active Filter Settings, allowing for tailored insights.
 - **Network View:** Investigate the citation network to understand relationships between papers. Highlight connections and access detailed paper information by hovering over nodes.
-- **Filter Settings:** Apply predefined search strings typical for the research field to refine searches, enhancing specificity and relevance.
+- **Info:** Detailed description of how to operate the MCLA.
 
 ## Setup of the MCLA
 
