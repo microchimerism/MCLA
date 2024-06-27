@@ -34,7 +34,9 @@ For more detailed information about the possibilities and the operation of the M
 
 ## Setup of the MCLA
 
-The setup of the MCLA involves two steps: using R scripts for preprocessing and then starting the MCLA in a Shiny Server environment. 
+The setup of the MCLA involves two steps: 
+- using R scripts for downloading and preprocessing the literature dataset and then
+- running the MCLA (online) in a Shiny Server environment. 
 
 ### Downloading and Preprocessing the Literature Dataset
 
