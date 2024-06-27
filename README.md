@@ -5,12 +5,11 @@
 ![Tests Passing](https://img.shields.io/badge/tests-passing-brightgreen)
 
 <a href="https://github.com/microchimerism/MCLA/raw/main/__docs__/MCLA_Collage.png" target="_blank">
-  <img src="https://github.com/microchimerism/MCLA/raw/main/__docs__/MCLA_Collage.png" width="400" height="240" title="MCLA" align="right">
+  <img src="https://github.com/microchimerism/MCLA/raw/main/__docs__/MCLA_Collage.png" width="400" height="210" title="MCLA" align="right">
 </a>
 
-The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is a tool designed for creating and hosting a literature dataset — in our special case, with over 15,000 references in the field of microchimerism (MC) research. 
-The MCLA is intended to be an essential resource for research (groups) providing useful tools for comprehensive and efficient literature analysis of a research field, with online access available to multiple users.
-
+The [Microchimerism Literature Atlas (MCLA)](https://literature-atlas.microchimerism.info) is a tool designed for creating and hosting a literature dataset — in our special case, with over 15,000 references in the field of microchimerism (MC) research.
+The MCLA is intended to be an essential resource for research (groups) providing useful tools for comprehensive and efficient literature analysis of a research field, with online access available to multiple users.  
 For more detailed information about the possibilities and the operation of the MCLA, please refer to the *Info* tag of the web application.
 
 ### Key Features
@@ -34,17 +33,17 @@ For more detailed information about the possibilities and the operation of the M
 
 ## Setup of the MCLA
 
-The setup of the MCLA involves two steps: 
+The setup of the MCLA involves two steps:
 - using R scripts for downloading and preprocessing the literature dataset and then
-- running the MCLA (online) in a Shiny Server environment. 
+- running the MCLA (online) in a Shiny Server environment.
 
 ### Downloading and Preprocessing the Literature Dataset
 
-PubMed search query results (defined in `preprocessing/data/PubMedSearch_Parameters_*.xlsx`) are downloaded and essential information for creating the literature dataset is extracted.
-If a custom literature dataset is used instead of the PubMed queries, then the file flag DOWNLOAD_PUBMED has to be set to FALSE to import the dataset.
-Thereafter, the dataset is cleaned by removing duplicates and incomplete entries. 
+PubMed search query results (defined in `preprocessing/data/PubMedSearch_Parameters_*.xlsx`) are downloaded and essential information for creating the literature dataset is extracted.  
+If a custom literature dataset is used instead of the PubMed queries, then the file flag DOWNLOAD_PUBMED has to be set to FALSE to import the dataset.  
+Thereafter, the dataset is cleaned by removing duplicates and incomplete entries.
 To optimize server processing time and ensure smooth operation, time consuming operations are included in the preprocessing part.
-Hence, the dataset is prefiltered using *Filter Settings* keywords (defined in `preprocessing/data/Filters__*.csv`) and nodes and edges of citation networks are calculated. 
+Hence, the dataset is prefiltered using *Filter Settings* keywords (defined in `preprocessing/data/Filters__*.csv`) and nodes and edges of citation networks are calculated.
 After preprocessing, the files created in `preprocessing/results/` should be copied to `web_app/data/` and the file `web_app/global.R` should be adapted accordingly.
 
 ### Setup of Shiny Server Environment
@@ -64,4 +63,4 @@ The necessary files are mostly text files for customizing the literature tool ca
 
 ## Acknowledgments
 
-The MCLA is part of the 'We All Are Multitudes: The Microchimerism, Human Health and Evolution Project' that is funded by the John Templeton foundation (Grant-ID 62214). 
+The MCLA is part of the 'We All Are Multitudes: The Microchimerism, Human Health and Evolution Project' that is funded by the John Templeton foundation (Grant-ID 62214).
